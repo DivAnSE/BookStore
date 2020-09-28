@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fa-map-marker{
+    color: #F10215;
+}
+.head{
+    position: relative;
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    background-color: #E3E4E5;
+    padding:0 50px;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+a:hover{
+    color: red;
+}
+.position{
+    margin: 4px 0 0 100px;
+}
+ul span{
+    float: left;
+    color: black;
+    font-size: 0.9em;
+}
+.hd_nav{
+    margin-top:4px;
+}
+ul li{
+    list-style: none;
+    font-size: 0.9em;
+    color: #999;
+}
+.hd_nav>ul>li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+    border-right: 1px solid#666;
+}
+.hd_nav>ul>li:hover{
+    color: red;
+    cursor: pointer;
+}
+.hd_nav li>ul li:hover{
+    color: red;
+}
+.mine{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+}
+.hd_nav>ul>li:hover>.mine{
+    display: block;
+}
+header{
+    position: absolute;
+    top: 45px;
+    left: 360px;
+    text-align: center;
+    padding-top: 15px;
+}
+header>[type="search"]{
+    height: 35px;
+    width: 400px;
+    padding-left: 3px;
+    outline: none;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+header button{
+    position: relative;
+    left: -5px;
+    width: 45px;
+    height: 35px;
+    background-color: red;
+    border-width: 0;
+    border-radius: 0 5px 5px 0;
+}
+header button i{
+    color: white;
+}
+header  button:hover{   
+    cursor: pointer;
+    background-color: #880000;
+}
+header span{
+    font-size: 0.8rem;
+    color: grey;
+}
+header section a{
+    display: inline-block;
+    font-size:1.2rem ;
+    margin: 15px 10px;
+    color: black;
+    font-weight: bold;
+}
+header section a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.logo{
+    display: inline-block;
+    width: 60px;
+}
+.logo img{
+    width: 170px;
+    height: 60px;
+}
+.head_logo{
+    position: relative;
+    margin: 20px auto;
+    width: 1245px;
+}
+.search{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 265px;
+}
+.head_search{
+    height: 40px;
+    width: 208px;
+    border: 0.5px solid lightslategray;
+    outline: none;
+}
+.search_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    border: 0.6px solid lightslategray;
+    background-color: #795A4D;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+.search_btn:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.content{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}

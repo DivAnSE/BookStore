@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+    <iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="./head.html" width="100%"
+        height="160px"></iframe>
+    <article>
+        <div class="bookImg">
+            <img src="" alt="" id="img">
+        </div>
+        <section class="details">
+            <p id="bookName"></p>
+            <p>[3-6岁]</p>
+            <section class="price">
+                <p><span id="justify">京东价</span><span>&yen;</span><span id="price"></span><span>[9.5折]</span><span>[定价<del>38.0</del>]</span><span>(降价通知)</span>
+                </p>
+                <p class="dashed">
+                    <span id="justify">促销信息</span><span>满减</span><span>每满100元，可减50元现金</span>
+                </p>
+                <p class="dashed"><span id="justify">促销</span><span>跨店满减</span><span>多买优惠</span></p>
+                <div class="evaluate">
+                    <p>累计评价</p>
+                    <span>7.5万+</span>
+                </div>
+            </section>
+            <div class="Value-added-services">
+                <span id="justify">增值服务</span>
+                <span><i class="fa fa-refresh" aria-hidden="true"></i>高价回收，极速回收</span>
+                <span><i class="fa fa-gift" aria-hidden="true"></i>礼品包换</span>
+            </div>
+            <div class="rank">
+                <span id="justify">排名</span>
+                <span>图书销量榜第6名</span>
+            </div>
+            <div class="address">
+                <span id="justify">配送至</span>
+                <span>杭州市西湖区丰潭路</span>
+                <span>有货</span>
+            </div>
+            <div class="weight">
+                <span id="justify">重量</span>
+                <span>0.1KG</span>
+            </div>
+            <div class="service">
+                <span id="justify">服务支持</span>
+                <span>闪电退货</span>
+                <span>上门换新</span>
+            </div>
+            <div class="cart">
+                <button onclick="addToCart()">加入购物车</button>
+            </div>
+        </section>
+    </article>
+    <script src="./js/details.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4F4F4;
+}
+.main{
+    height: 100px;
+    border-bottom: 1px solid #DFE8E7;
+}
+.main table{
+    padding-top: 30px;
+}
+.main table tbody tr td{
+    background-image: url("../images/sprit.png");
+    background-repeat: no-repeat;
+    height: 44px;
+}
+.more{
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: left;
+    /* background-repeat: no-repeat;
+    list-style-position: inside; */
+    background-position:90px 2px;
+    padding-left: 130px;
+}
+
+.fast{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    /* background-repeat: no-repeat;
+    list-style-position: inside; */
+    background-position:60px -42px;
+    padding-left: 100px;
+}
+
+.better{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    /* background-repeat: no-repeat;
+    list-style-position: inside; */
+    background-position:60px -85px;
+    padding-left: 100px;
+}
+
+.save{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    /* background-repeat: no-repeat;
+    list-style-position: inside; */
+    background-position:60px -130px;
+    padding-left: 100px;
+}
+.footer>dl>dt.bold{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+.footer>dl dt{
+    margin-top: 10px;
+}
+.footer>dl dt:hover{
+    color: red;
+    cursor: pointer;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    grid-template-rows: 210px;
+    justify-content: space-around;
+    border-bottom: 1px solid #DFE8E7;
+}
+dt,a,p{
+    color: #98A1AA;
+    font-size: 0.8em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.copy{
+    padding-top: 20px;
+    text-align: center;
+}
+.foot .copy ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 6px;
+    border-right: 1px solid lightslategray;
+}
